@@ -1,0 +1,550 @@
+/* Base button style */
+
+.btn {
+	height: auto;
+	font-family: sans-serif;
+	font-size: 1rem;
+	/* display: inline-block; */
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: normal;
+	color: #1b1b1b;
+	background: #fafafa;
+	margin: 0.3rem;
+	padding: 0.5rem 1rem;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: color 0.09s ease-in-out, background-color 0.09s ease-in-out,
+		border-color 0.09s ease-in-out, box-shadow 0.05s ease-in;
+}
+
+/* Default button states */
+
+.btn:hover {
+	background-color: #ffffff;
+}
+
+.btn:active:focus {
+	box-shadow: 0 0 1px 3px #00000081;
+}
+
+.btn:active {
+	box-shadow: 0 0 1px 3px #00000044;
+}
+
+.btn:focus {
+	box-shadow: 0 0 1px 3px #00000044;
+}
+
+/* Primary button style */
+
+.btn-primary {
+	background: #2f90eb;
+	color: #ffffff;
+	border: none;
+}
+
+/* Primary button states */
+
+.btn-primary:hover {
+	background-color: #2a87dd;
+}
+
+.btn-primary:active:focus {
+	box-shadow: 0 0 1px 3px #398ddbaf;
+}
+
+.btn-primary:active {
+	box-shadow: 0 0 1px 3px #3f9af088;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 1px 3px #3f9af088;
+}
+
+/* Secondary button style */
+
+.btn-secondary {
+	background: #5c6a74;
+	color: #ffffff;
+	border: none;
+}
+
+/* Secondary button states */
+
+.btn-secondary:hover {
+	background-color: #4f5b64;
+}
+
+.btn-secondary:active:focus {
+	box-shadow: 0 0 1px 3px #49555ea4;
+}
+
+.btn-secondary:active {
+	box-shadow: 0 0 1px 3px #5c6a7483;
+}
+
+.btn-secondary:focus {
+	box-shadow: 0 0 1px 3px #5c6a7483;
+}
+
+/* Success button style */
+
+.btn-success {
+	background: #2c8f55;
+	color: #ffffff;
+	border: none;
+}
+
+/* Success button states */
+
+.btn-success:hover {
+	background-color: #257747;
+}
+
+.btn-success:active:focus {
+	box-shadow: 0 0 1px 3px #1d8b4b98;
+}
+
+.btn-success:active {
+	box-shadow: 0 0 1px 3px #29c76b81;
+}
+
+.btn-success:focus {
+	box-shadow: 0 0 1px 3px #29c76b81;
+}
+
+/* Danger button style */
+
+.btn-danger {
+	background: #cf1f3d;
+	color: #ffffff;
+	border: none;
+}
+
+/* Danger button states */
+
+.btn-danger:hover {
+	background-color: #b41a34;
+}
+
+.btn-danger:active:focus {
+	box-shadow: 0 0 1px 3px #97172c9a;
+}
+
+.btn-danger:active {
+	box-shadow: 0 0 1px 3px #da284585;
+}
+
+.btn-danger:focus {
+	box-shadow: 0 0 1px 3px #da284585;
+}
+
+/* Warning button style */
+
+.btn-warning {
+	background: #ffc917;
+	color: #1b1b1b;
+	border: none;
+}
+
+/* Warning button states */
+
+.btn-warning:hover {
+	background-color: #ffd342;
+}
+
+.btn-warning:active:focus {
+	box-shadow: 0 0 1px 3px #b38e1481;
+}
+
+.btn-warning:active {
+	box-shadow: 0 0 1px 3px #d4a81881;
+}
+
+.btn-warning:focus {
+	box-shadow: 0 0 1px 3px #d4a81881;
+}
+
+/* Info button style */
+
+.btn-info {
+	background: #17c9ff;
+	color: #1b1b1b;
+	border: none;
+}
+
+/* Info button states */
+
+.btn-info:hover {
+	background-color: #48d4ff;
+}
+
+.btn-info:active:focus {
+	box-shadow: 0 0 1px 3px #23b0dba1;
+}
+
+.btn-info:active {
+	box-shadow: 0 0 1px 3px #30cfff81;
+}
+
+.btn-info:focus {
+	box-shadow: 0 0 1px 3px #30cfff81;
+}
+
+/* Light button style */
+
+.btn-light {
+	background: #f6fdff;
+	color: #1b1b1b;
+	border: none;
+}
+
+/* Light button states */
+
+.btn-light:hover {
+	background-color: #fafeff;
+}
+
+.btn-light:active:focus {
+	box-shadow: 0 0 1px 3px #e8eef09f;
+}
+
+.btn-light:active {
+	box-shadow: 0 0 1px 3px #f6fdff7e;
+}
+
+.btn-light:focus {
+	box-shadow: 0 0 1px 3px #f6fdff7e;
+}
+
+/* Dark button style */
+
+.btn-dark {
+	background: #1b1b1b;
+	color: #fff;
+	border: none;
+}
+
+/* Dark button states */
+
+.btn-dark:hover {
+	background-color: #2b2b2b;
+}
+
+.btn-dark:active:focus {
+	box-shadow: 0 0 1px 3px #1b1b1baf;
+}
+
+.btn-dark:active {
+	box-shadow: 0 0 1px 3px #1b1b1b81;
+}
+
+.btn-dark:focus {
+	box-shadow: 0 0 1px 3px #1b1b1b81;
+}
+
+/* ------------------------ */
+/* Outline Button Styles */
+/* ------------------------ */
+/* Default outline button base style*/
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: white;
+}
+
+/* Default outline button states */
+
+.btn-outline:hover {
+	background-color: #ffffff;
+	color: #1b1b1b;
+}
+
+/* Primary outline button base style*/
+
+.btn-outline-primary {
+	background: transparent;
+	border: 1px solid #2f90eb;
+	color: #2f90eb;
+}
+
+/* Primary outline button states */
+
+.btn-outline-primary:hover {
+	background-color: #2f90eb;
+	color: #fff;
+}
+
+.btn-outline-primary:active:focus {
+	box-shadow: 0 0 1px 3px #398ddbaf;
+}
+
+.btn-outline-primary:active {
+	box-shadow: 0 0 1px 3px #3f9af088;
+}
+
+.btn-outline-primary:focus {
+	box-shadow: 0 0 1px 3px #3f9af088;
+}
+
+/* Secondary outline button base style*/
+
+.btn-outline-secondary {
+	background: transparent;
+	border: 1px solid #5c6a74;
+	color: #5c6a74;
+}
+
+/* Secondary outline button states */
+
+.btn-outline-secondary:hover {
+	background-color: #5c6a74;
+	color: #fff;
+}
+
+.btn-outline-secondary:active:focus {
+	box-shadow: 0 0 1px 3px #49555ea4;
+}
+
+.btn-outline-secondary:active {
+	box-shadow: 0 0 1px 3px #5c6a7483;
+}
+
+.btn-outline-secondary:focus {
+	box-shadow: 0 0 1px 3px #5c6a7483;
+}
+
+/* Success outline button base style*/
+
+.btn-outline-success {
+	background: transparent;
+	border: 1px solid #2c8f55;
+	color: #2c8f55;
+}
+
+/* Success outline button states */
+
+.btn-outline-success:hover {
+	background-color: #257747;
+	color: #fff;
+}
+
+.btn-outline-success:active:focus {
+	box-shadow: 0 0 1px 3px #1d8b4b98;
+}
+
+.btn-outline-success:active {
+	box-shadow: 0 0 1px 3px #29c76b81;
+}
+
+.btn-outline-success:focus {
+	box-shadow: 0 0 1px 3px #29c76b81;
+}
+
+/* Danger outline button base style*/
+
+.btn-outline-danger {
+	background: transparent;
+	border: 1px solid #cf1f3d;
+	color: #cf1f3d;
+}
+
+/* Danger outline button states */
+
+.btn-outline-danger:hover {
+	background-color: #b41a34;
+	color: #fff;
+}
+
+.btn-outline-danger:active:focus {
+	box-shadow: 0 0 1px 3px #97172c9a;
+}
+
+.btn-outline-danger:active {
+	box-shadow: 0 0 1px 3px #da284585;
+}
+
+.btn-outline-danger:focus {
+	box-shadow: 0 0 1px 3px #da284585;
+}
+
+/* warning outline button base style*/
+
+.btn-outline-warning {
+	background: transparent;
+	border: 1px solid #ffc917;
+	color: #ffc917;
+}
+
+/* warning outline button states */
+
+.btn-outline-warning:hover {
+	background-color: #ffd342;
+	color: #1b1b1b;
+}
+
+.btn-outline-warning:active:focus {
+	box-shadow: 0 0 1px 3px #b38e1481;
+}
+
+.btn-outline-warning:active {
+	box-shadow: 0 0 1px 3px #d4a81881;
+}
+
+.btn-outline-warning:focus {
+	box-shadow: 0 0 1px 3px #d4a81881;
+}
+
+/* Info outline button base style*/
+
+.btn-outline-info {
+	background: transparent;
+	border: 1px solid #17c9ff;
+	color: #17c9ff;
+}
+
+/* Info outline button states */
+
+.btn-outline-info:hover {
+	background-color: #48d4ff;
+	color: #1b1b1b;
+}
+
+.btn-outline-info:active:focus {
+	box-shadow: 0 0 1px 3px #23b0dba1;
+}
+
+.btn-outline-info:active {
+	box-shadow: 0 0 1px 3px #30cfff81;
+}
+
+.btn-outline-info:focus {
+	box-shadow: 0 0 1px 3px #30cfff81;
+}
+
+/* Light outline button base style*/
+
+.btn-outline-light {
+	background: transparent;
+	border: 1px solid #f6fdff;
+	color: #f6fdff;
+}
+
+/* Light outline button states */
+
+.btn-outline-light:hover {
+	background-color: #fafeff;
+	color: #1b1b1b;
+}
+
+.btn-outline-light:active:focus {
+	box-shadow: 0 0 1px 3px #e8eef09f;
+}
+
+.btn-outline-light:active {
+	box-shadow: 0 0 1px 3px #f6fdff7e;
+}
+
+.btn-outline-light:focus {
+	box-shadow: 0 0 1px 3px #f6fdff7e;
+}
+
+/* Dark outline button base style*/
+
+.btn-outline-dark {
+	background: transparent;
+	border: 1px solid #1b1b1b;
+	color: #1b1b1b;
+}
+
+/* Dark outline button states */
+
+.btn-outline-dark:hover {
+	background-color: #2b2b2b;
+	color: #fff;
+}
+
+.btn-outline-dark:active:focus {
+	box-shadow: 0 0 1px 3px #1b1b1baf;
+}
+
+.btn-outline-dark:active {
+	box-shadow: 0 0 1px 3px #1b1b1b81;
+}
+
+.btn-outline-dark:focus {
+	box-shadow: 0 0 1px 3px #1b1b1b81;
+}
+
+/* ------------------------ */
+/* Button Sizes*/
+/* ------------------------ */
+/* LARGE BUTTON SIZE */
+
+.btn-lg {
+	font-size: 2rem;
+}
+
+/* MEDIUM BUTTON SIZE */
+.btn-md {
+	font-size: 1rem;
+}
+
+/* SMALL BUTTON SIZE */
+.btn-sml {
+	font-size: 0.6rem;
+}
+
+/* ------------------------ */
+/* Other button states*/
+/* ------------------------ */
+
+/* DISABLED BUTTON */
+.btn:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+/* ROUND BUTTON */
+.btn-round {
+	border-radius: 2rem;
+}
+
+/* SQUARE BUTTON */
+.btn-square {
+	border-radius: 0;
+}
+
+/* ------------------------ */
+/* Button Animations*/
+/* ------------------------ */
+
+/* Letter Spacing Animation */
+.btn-anim1 {
+	transition: letter-spacing 0.1s ease-in-out, color 0.09s ease-in-out,
+		background-color 0.09s ease-in-out, border-color 0.09s ease-in-out,
+		box-shadow 0.05s ease-in;
+}
+
+.btn-anim1:hover {
+	letter-spacing: 10px;
+}
+
+/* HEY NOW YOU'RE AN ALL-STAR */
+.btn-shrek {
+	transition: color 0s ease-in-out, background-color 0.09s ease-in-out,
+		border-color 0.09s ease-in-out, box-shadow 0.05s ease-in,
+		background-image 2s ease-in;
+}
+
+.btn-shrek:hover {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYLswALUPU8kFCmxFuPev878rkCMbjXttV2sTRxNMfmdkOZ1ggc1yAqoOUxdHoca4FNrY&usqp=CAU);
+	background-size: 150%;
+	width: 300px;
+	height: 300px;
+	color: transparent;
+}
